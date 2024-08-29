@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#counter_app{
+    height: 100vh;
+    background-color: #034d8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#counter_app button,#counter_app input{
+    padding: 10px 30px;
+    border: none;
+    text-align: center;
+}
+#counter_app button{
+    background-color: #888;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#clr{
+    height: 100vh;
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clr button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 12px;
+    text-transform: uppercase;
+    background-color: #888;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#clr button:hover{
+    background-color: #c0392b;
+    color: #000;
+}
+
+#range{
+    height: 100vh;
+    background-color: #c0392b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#range h2{
+    font-size: 40px;
+}
+#range .progress{
+    cursor: pointer;
+}
+
+ 
